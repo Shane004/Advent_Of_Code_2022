@@ -40,7 +40,4 @@ def check_score():
     with open("2022_Day2_input.txt") as file:
         for line in file:
             total += win_lose_draw(line[0], line[2])
-        print(total)
-
-
-check_score()
+        return total
